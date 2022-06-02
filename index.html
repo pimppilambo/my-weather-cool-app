@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Weather App</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="weather-app">
+    <div class="container">
+      <form id="search-form" class="app">
+        <label for="city"></label>
+        <input
+          type="text"
+          placeholder="Type Your City"
+          id="search-city"
+          autofocus="on"
+          autocomplete="off"
+        />
+        <input type="button" value="Submit" id="btn" />
+        <input type="button" value="Current" id="curr" />
+      </form>
+      <div id="col-6 lol">
+        <h1 id="city">Kyiv</h1>
+      </div>
+
+      <h2 id="look">
+        <a id="tempp" href="#">°C</a> | <a id="celsius" href="#">°F</a>
+        <strong id="temp">11</strong>
+      </h2>
+
+      <div><h2 id="day">Monday 12:00</h2></div>
+      <div id="cl"><strong>Clouds</strong></div>
+
+      <div class="lol">
+        <ul>
+          <!-- <li>Precipitation: <strong id="pre">40</strong>%</li> -->
+          <li>Humidity: <strong id="hum">57</strong></li>
+          <li>Wind: <strong id="wind">13</strong>km</li>
+        </ul>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

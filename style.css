@@ -1,0 +1,86 @@
+h2#look {
+  text-decoration: none;
+  float: right;
+  margin-top: 10px;
+}
+
+#weather-app {
+  border: 1px solid rgb(35, 148, 173);
+  max-width: 40rem;
+  height: 20rem;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+#city {
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+  color: black;
+  font-size: 70px;
+}
+
+#search-city {
+  border: 2.2px solid orange;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 180px;
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+#btn,
+#curr {
+  border: 1px solid transparent;
+  border-radius: 20px;
+  margin: 0 auto;
+  color: rgb(35, 148, 173);
+  width: 80px;
+  height: 30px;
+}
+
+#curr:hover {
+  background-color: rgb(35, 148, 173);
+  color: white;
+}
+
+#btn:hover {
+  background-color: rgb(35, 148, 173);
+  color: white;
+}
+
+#tempp,
+#celsius {
+  text-decoration: none;
+  color: rgb(35, 148, 173);
+  text-align: right;
+  font-size: 20px;
+}
+
+#temp {
+  font-size: 20px;
+  color: rgb(35, 148, 173);
+}
+
+#day {
+  color: rgb(35, 148, 173);
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#cl {
+  float: right;
+  margin-top: -100px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+div.lol {
+  color: rgb(35, 148, 173);
+  text-decoration: none;
+  float: left;
+}
